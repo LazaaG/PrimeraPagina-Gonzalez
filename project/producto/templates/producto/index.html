@@ -11,6 +11,8 @@
         {% endfor %}
     </ul>
 
-    <p><a href="{% url 'producto:crear' %}">Crear producto</a></p>
+    <p><a href="{% url 'producto:crear_producto' %}">Crear Producto</a></p>
+    <p><a href="{% url 'producto:crear_categoria' %}">Crear Categoria</a></p>
+    <p><a href="{% url 'producto:crear_stock' %}">Crear tipo de Stock</a></p>
     <p><a href="{% url 'home:index' %}">Pagina principal</a></p>
 {% endblock content %}

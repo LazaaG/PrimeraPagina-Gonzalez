@@ -1,0 +1,17 @@
+{% extends 'home/base.html' %}
+
+{% block title %}
+    <h2>Crear Stock</h2>
+{% endblock title %}
+
+{% block content %}
+
+    <form action="" method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Guardar</button>
+    </form>
+
+    <p><a href="{% url 'home:index' %}">Ir al menú principal</a></p>
+
+{% endblock content %}
