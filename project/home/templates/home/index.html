@@ -1,0 +1,10 @@
+{% extends "home/base.html" %}
+
+{% block title %}
+    <h2> PRE-ENTREGA #3 </h2>
+{% endblock title %}
+
+{% block content %}
+    <p><a href="{% url 'producto:index' %}">Producto</a></p>
+    <p><a href="{% url 'home:about' %}">Acerca del alumno</a></p>
+{% endblock content %}
