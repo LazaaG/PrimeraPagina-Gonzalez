@@ -23,4 +23,5 @@ urlpatterns = [
 
 urlpatterns += [
     path("producto/", include("producto.urls")),
+    path("", include("home.urls")),
 ]
