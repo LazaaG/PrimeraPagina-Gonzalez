@@ -1,4 +1,4 @@
-# Preparación de archivos, carpetas, Git y entorno virtual para el proyecto Django
+# PRODUCTOS GONZALEZ
 
 ## Instalación de Requerimientos
 
